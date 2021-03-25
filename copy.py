@@ -172,7 +172,7 @@ pygame.init()
 pygame.mixer.init()
 
 #load in game imgs
-player_img = pygame.image.load(os.path.join(mimmikyu_folder,"img.png")).convert()
+player_img = pygame.image.load(os.path.join(mimmikyu_folder,"img_0.png")).convert()
 
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption(title)
